@@ -1,0 +1,39 @@
+
+:root { --ink:#1c2733; --paper:#fdfcf9; --accent:#0b66c3; --line:#e3ded4; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink);
+  font:17px/1.65 Georgia, "Times New Roman", serif; }
+a { color:var(--accent); text-decoration-thickness:1px; text-underline-offset:2px; }
+a:hover { text-decoration-thickness:2px; }
+code { background:#f1ede4; border:1px solid var(--line); border-radius:4px;
+  padding:.1em .35em; font:0.88em/1.4 ui-monospace, Menlo, Consolas, monospace; }
+pre { background:#f1ede4; border:1px solid var(--line); border-radius:6px;
+  padding:.8em 1em; overflow-x:auto; }
+pre code { border:none; background:none; padding:0; }
+header.site { border-bottom:2px solid var(--accent); background:#fff; }
+.site-inner { max-width:760px; margin:0 auto; padding:1rem; display:flex;
+  flex-wrap:wrap; align-items:baseline; gap:1rem; justify-content:space-between; }
+.brand { font-family:ui-monospace, Menlo, monospace; font-size:.95rem;
+  font-weight:bold; text-decoration:none; color:var(--ink); }
+nav a { margin-left:1rem; font-size:.92rem; text-decoration:none;
+  font-family:ui-monospace, Menlo, monospace; }
+nav a:hover { text-decoration:underline; }
+main { max-width:760px; margin:0 auto; padding:1.5rem 1rem 3rem; }
+h1 { font-size:1.9rem; line-height:1.25; margin:.4rem 0 1rem; }
+h2 { margin-top:2.4rem; border-bottom:1px solid var(--line); padding-bottom:.3rem; }
+h3 { margin-top:1.8rem; }
+blockquote { border-left:3px solid var(--accent); margin:1rem 0; padding:.2rem 1rem; color:#3c4a58; }
+table { border-collapse:collapse; width:100%; font-size:.95rem; }
+th, td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; }
+th { background:#f1ede4; }
+li { margin:.3rem 0; }
+hr { border:none; border-top:1px dashed var(--line); margin:2rem 0; }
+footer { border-top:1px solid var(--line); text-align:center; font-size:.85rem;
+  color:#5a6674; padding:1rem; font-family:ui-monospace, Menlo, monospace; }
+.entry { background:#fff; border:1px solid var(--line); border-radius:8px;
+  padding:1rem 1.2rem; margin:1.2rem 0; }
+.entry h2 { border:none; margin:.1rem 0 .4rem; }
+.toc { columns:2; gap:1.5rem; padding-left:1.2rem; font-size:.93rem; }
+.toc li { margin:.2rem 0; }
+.tagline { color:#3c4a58; }
+.lead { font-size:1.05rem; }
